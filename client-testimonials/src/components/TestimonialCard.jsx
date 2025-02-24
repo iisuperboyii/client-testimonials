@@ -1,14 +1,12 @@
 import './TestimonialCard.css'
-import DataArray from './data.json'
 
-function TestimonialCard(name,review){
+function TestimonialCard({ name, review }) {
   return(
     <div>
-      <h2> name: {name}</h2>
-      <p>review:{review}</p>
+      <h2>Name: {name}</h2>
+      <p>Review: {review}</p>
     </div>
   )
 }
-
 
 export default TestimonialCard

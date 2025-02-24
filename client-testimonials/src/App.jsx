@@ -1,11 +1,11 @@
 import './App.css'
-import TestmonialCard from './components/TestimonialCard'
+import TestimonialCard from './components/TestimonialCard'
 
 function App() {
-
   return (
     <>
-      <TestmonialCard></TestmonialCard>
+      <TestimonialCard name="Aaron" review="This is a great product!" />
+      <TestimonialCard name="Darron" review="This is a great product!" />
     </>
   )
 }
